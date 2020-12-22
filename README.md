@@ -44,6 +44,65 @@ What is cybersecurity and some common internet crimes?
 
 
 
+#Css 
+- https://www.youtube.com/watch?v=yfoY53QXEnI&pbjreload=101
+- cascading style sheets
+- not a programming language
+- stylesheet/styling language
+- used for website layout and design
+- can beextended with Sass/Less
+
+3methods for adding CSS
+- inline CSS: directly in the html element (NO!)
+- internal CSS: Using <style> tags in a single document
+- external CSS: linking an external .css file
+
+
+
+CSS selector
+selector { property : vlue } declaration end
+a
+
+colors in Css:
+- color names
+-html5 color names
+-hexadecimal
+-RGB
+
+red/#00ff00/rgb(0,0,255)
+
+web safe fonts: serif는 끝에 훅
+
+id & class differece?
+id is unique, class is reusable, otherwise just use class
+
+
+Margin and Padding
+- padding is between content and margin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
