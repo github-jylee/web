@@ -1,0 +1,62 @@
+# HTML, CSS, JavaScript가 뭔가요?
+- https://www.youtube.com/watch?v=ffENjt7aEdc
+- 갖다놓고(뭐가 뭔지 알려줌- marks stuff), 꾸미고, 시킨다
+- react native, native script, electron js
+- 마크업: 구조를 갖다놓음, cascading style sheet: 꾸며줌, javascript: nodejs까지 브라우저에서 변형 또는 만들기
+- 각각 한 파일씩 만들어서, 자바스크립트로 생명력을 넣음
+- 배우기는 쉬운데, 효율적이고 유연한 적용은 많이 만들고 겪어봐야, 크롬 개발자 열어보고 공부해야
+
+
+# HTML 이 영상 하나로 끝내세요
+- https://www.youtube.com/watch?v=50JOpxN0554
+- https://repl.it
+- <h1> <b> <i> <p> <img>
+- <div>는 한줄 전체 공간 차지 (블록), <span>은 자기 내용물 만큼의 공간만 차지 (인라인 엘레멘트)
+
+
+# 노마드코드
+- 니꼴라스 TV_#1_html css javascript 차이가 무엇인고 (What is difference between HTML, CSS & Javascript)
+-
+
+
+# 웹 프로그래머 테크트리 (feat. 공부 순서) 한방에 설명한다 (Roadmap for Web Developers)
+- https://www.youtube.com/watch?v=pEE_uJ-joUA
+- 바닐라 자바스크립트: 딱 편해질 시점만큼
+- 라이브러리는 나중에 배우셈
+- 자바스크립트로 투두 리스트 만들기, 인터렉션: 에니메이션
+- 쓰지도 않을 것 배우지마셈, 그 다음에 라이브러리 J쿼리 리액트
+- 그 다음엔 백앤드 (node js, express) 배워서 프론트와 백엔드 구동 원리 이해
+- html css -> js -> js 라이브러리 -> 백엔드
+- learn out of necessity
+
+# 프로그래밍 독학할 때 자주하는 실수 5가지
+- https://www.youtube.com/watch?v=FF6CF8TZIhE
+- 공부 < 실제로 해봐야 (be a maker)
+- Build things
+- 매일해야 함, 습관을 만들어야 함
+- not a check list, but make a list of projects
+- portfolio
+- have a deadline
+
+# 풀스택 주니어 웹 개발자가 되려면? ver.2020
+- https://www.youtube.com/watch?v=ODa9mY2bEEc
+- 풀스택: GUI 프론트엔드부터 데이터베이스 백엔드까지 소프트웨어 스택을 모두 이해하는 개발자
+- understand > memorize
+- clone coding (아무 사이트나 클론 코딩이 가능하면 html +css)
+- ***javascript (많이 배워놓으면, 다른 리액트나 다른 언어 배우기 쉬워짐) - 
+모달창, 슬라이더, 메뉴 등 인터락티브한거 많들 수 있어야, 프레임워크있든 없든
+- node.js: CRUD (create read update delete)가 가능하도록, ex. Instagram
+- 이 후 무엇을 할지는 본인 선호에 따라
+- react.js - interactive한 것을 위해, typescript, graphQL 등 javascript로 삽질 후
+
+
+
+
+
+
+
+
+
+
+
+
