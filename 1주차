@@ -269,27 +269,211 @@ switch (groceryItem) {
 - variables can be accessed or referenced
 
 
+# Blocks and Scope
+  - {} blocks
+
+const logSkyColor = () => {
+  let color = 'blue'; 
+  console.log(color); // blue 
+}
+
+
+const city = 'New York City';
+
+const logCitySkyline = () => {
+  let skyscraper = 'Empire State Building';
+  return 'The stars over the ' + skyscraper + ' in ' + city;
+};
+
+console.log(logCitySkyline());
+
+# Global Scope
+const color = 'blue';
+ 
+const returnSkyColor = () => {
+  return color; // blue 
+};
+ 
+console.log(returnSkyColor()); // blue
 
 
 
 
 
 
+#global scope
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+const stars = 'North Star';
+
+const callMyNightSky = () => {
+	return 'Night Sky: ' + satellite + ', ' + stars + ', and ' + galaxy;
+};
+
+console.log(callMyNightSky());
 
 
 
+# block scope
+const logVisibleLightWaves = () => {
+  const lightWaves = 'Moonlight';
+  console.log(lightWaves);
+};
+
+logVisibleLightWaves();
+
+// console.log(lightWaves);
 
 
 
+# Scope Pollution
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+let stars = 'North Star';
+
+const callMyNightSky = () => {
+  stars = 'Sirius';
+	return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
+};
+
+console.log(callMyNightSky());
+console.log(stars);
 
 
+# Practice Good Scoping
 
-
-
-
-
-
-
-
-
+const logVisibleLightWaves = () => {
+  let lightWaves = 'Moonlight';
+	let region = 'The Arctic';
+  // Add if statement here:
+  if (region === 'The Arctic'){
+    let lightWaves = 'Northern Lights';
+    console.log(lightWaves);
+  }
   
+  console.log(lightWaves);
+};
+
+logVisibleLightWaves();
+
+
+# functions
+- a function declaration binds a value to a variable name, or an identifier
+
+function identifier(){
+console.log('Hello, World!');
+}
+
+
+
+
+ # Calling a Function
+ sayThanks();
+ 
+ # Parameters and Arguments
+ function calculateArea(width, height) { console.log(width*height);}
+ function sayThanks(name) {
+  console.log('Thank you for your purchase '+ name + '! We appreciate your business.');
+}
+sayThanks('Cole');
+
+
+# Default Parameters
+function greeting (name = 'stranger') {
+  console.log(`Hello, ${name}!`)
+}
+ 
+greeting('Nick') // Output: Hello, Nick!
+greeting() // Output: Hello, stranger!
+
+function makeShoppingList(item1 = 'milk', item2 = 'bread', item3 = 'eggs')
+
+# Return
+function rectangleArea(width, height) {
+  if (width < 0 || height < 0) {
+    return 'You need positive integers to calculate area!';
+  }
+  return width * height;
+}
+function monitorCount(rows, columns) {
+  return rows * columns;
+}
+
+const numOfMonitors = monitorCount(5, 4);
+
+console.log(numOfMonitors);
+
+
+
+
+# Helper Functions
+function multiplyByNineFifths(number) {
+  return number * (9/5);
+};
+ 
+function getFahrenheit(celsius) {
+  return multiplyByNineFifths(celsius) + 32;
+};
+ 
+getFahrenheit(15); // Returns 59
+ 
+ 
+function monitorCount(rows, columns) {
+  return rows * columns;
+}
+
+function costOfMonitors(rows, columns) {
+ return monitorCount(rows, columns)  * 200;
+}
+
+const totalCost = costOfMonitors(5, 4);
+
+console.log(totalCost);
+
+
+# Function Expressions
+const plantNeedsWater = function(day) {
+  if(day === 'Wednesday'){
+    return true;
+  } else {
+    return false;
+  }
+};
+
+plantNeedsWater('Tuesday');
+
+console.log(plantNeedsWater('Tuesday'));
+
+
+
+
+# Arrow Functions
+const plantNeedsWater = (day) => {
+  if (day === 'Wednesday') {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+
+
+# Concise Body Arrow Functions
+const squareNum = (num) => {
+  return num * num;
+};
+
+
+const plantNeedsWater = day => day === 'Wednesday' ? true : false;
+
+
+
+
+
+
+
+
+
+c
+
+
