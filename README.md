@@ -9,7 +9,8 @@ DNS spoofing vulnerability
 
 The internet: packets, routing, reliablity
 
-HTTP and HTML: HTTP is the standard protocol using which the webpages are transferred over the internet. 
+HTTP and HTML:
+HTTP is the standard protocol using which the webpages are transferred over the internet. 
 인터넷은 서버와 연결해서 http: language used to communicate between web browsers and servers
 HTML: language to tell how to show website
 
