@@ -16,7 +16,7 @@ HTML: language to tell how to show website
 
 SSL and TLS: https 할 때 secure를 위함
 
-Encryption: cryptography is security on the internet
+Encryption: cryptography is security on the internet ㅊ
 
 DNS: phonebook on your mobile phone, if you call one of your contacts you can dial their number
 
