@@ -1,7 +1,7 @@
 # web
 #https://roadmap.sh/guides/what-is-internet.
 What is Internet?: global network that connects each other to communicate, Vint Cerf created it. Arpanet에서 시작
-Data transfer: wires, cables and wifi
+Data transfer: wires, cables and wifi.
 bit: binary bits (atoms of information)
 
 Internet protocol: IP (32 bits, 8bit로 나뉨, country-region-subnetwork-device)
