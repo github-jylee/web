@@ -1547,12 +1547,15 @@ var carbonara = "You can make carbonara with " + pasta + ", " + meat + ", " + " 
 
 
 
+# Transpilation With Babel
+Transpilation is the process of converting one programming language to another.
+
+In the remaining exercises of this lesson, you will learn how to use Babel to transpile the new, easy-to-write version of JavaScript (ES6) to the old, browser-compatible version of JavaScript (ES5).
+
+In the instructions below, you will pass JavaScript ES6 code to Babel, which will transpile it to ES5 and write it to a file in the lib directory.
 
 
-
-
-
-
+# npm init
 
 
 
