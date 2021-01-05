@@ -1,4 +1,4 @@
-# Web page!
+# Web page!ㅋ
 #https://roadmap.sh/guides/what-is-internet..
 What is Internet?: global network that connects each other to communicate, Vint Cerf created it. Arpanet에서 시작
 Data transfer: wires, cables and wifi.
@@ -30,7 +30,7 @@ What is cybersecurity and some common internet crimes?
 
 
 
-
+,
 #HTTP
 -application layer communication protocol
 
