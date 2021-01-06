@@ -2,7 +2,7 @@
 #https://roadmap.sh/guides/what-is-internet..
 What is Internet?: global network that connects each other to communicate, Vint Cerf created it. Arpanet에서 시작
 Data transfer: wires, cables and wifi.
-bit: binary bits (atoms of information)
+bit: binary bits (atoms of information)z
 
 Internet protocol: IP (32 bits, 8bit로 나뉨, country-region-subnetwork-device)
 DNS spoofing vulnerability
@@ -77,7 +77,7 @@ web safe fonts: serif는 끝에 훅
 id & class differece?
 id is unique, class is reusable, otherwise just use class
 
-
+c
 Margin and Padding
 - padding is between content and margin
 
