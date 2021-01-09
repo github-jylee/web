@@ -1,0 +1,195 @@
+# What is HTML: hyper text markup language
+- not a programming language
+- markup language for creating webpages or documents
+- building blocks of the Web
+
+A web browser: google chrome, mozilla firefox, safari, edige, IE 
+A text editor: sublime text, atom.io, visual studio
+
+
+- Does NOT need a server
+- files must end with the .html extension
+- runs in a web browser (Chrome, FireFox, etc)
+- index.html is the root / home page of a website
+
+
+index.html
+
+Tag Syntax
+<tagname>content</tagname>
+<h1></h1>
+<p>
+<br/> self closing
+<br> Fine in HTML5
+
+- Element names surrounded by angle brackets
+- Normally come in pairs (start tag and end tag)
+- End tag is usually the same but with a forward slash
+- Some tags close themselves (Remnant of XHTML)
+
+#############################
+<!DOCTYPE html> # declaration, tell broswer what type of html written
+<html>
+<head>
+page title, link to css or javascript
+</head>
+<body>
+</body>
+</html>
+
+############################
+
+tab누르면 end tag 나옴.
+ctrl+u ### exact html parsed
+<!-- -->
+F12 버튼으로 css도 볼 수 있음, javascript나 networking도 볼 수 있음
+lorem + tab
+<div style = "margin-top:500px"></div> 스크롤 가능
+
+############################
+# Inline Elements
+- Do not start on a new line
+- Take only the necessary width
+
+# Block Elements
+- Start on a new line
+- Take full width available
+
+# Block Level: <div>, <h1>-<h6>, <p>, <form>
+# Inline Level: <span>, <img>, <a>
+
+
+##############################
+# 헤딩, 1이 가장 큼
+<h1>Heading One</h1>
+<h2>Heading Two</h2>
+<h3>Heading Three</h3>
+<h4>Heading Four</h4>
+<h5>Heading Five</h5>
+<h6>Heading Six</h6>
+
+# <p> paragraph </p>
+
+# <strong> bold font </strong>
+
+# <em> italic </em>
+
+# <a href = "about.html" or "http://google.com" > link </a>
+# <a href = "about.html", target = "_blank" > - external page
+
+#################################
+# Tag Attributes
+<tagname attributename = "attributevalue"> content </tagname>
+<h1 title = "My Company"> About Us </h1>
+
+- All tags can have attributes
+- provide information about an element
+- placed in the start tag
+- key/value pairs (id = "someid")
+
+###############################
+# unordered list
+- <ul> <li> List Item1 </li> </ul> #Bullet Point
+- <ol> <li> List Item1 </li> </ol> # 숫자로 나옴1,2,3
+
+#table
+<table>
+	<thead>
+		<tr> # table row
+			<th>Name</th>
+			<th>EmaiL</th>
+			<th>Age</th>
+		</tr>
+		<tbody>
+		<tr>
+			<td>Jiyoung</td>
+			<td>jyee7321@naver.com</td>
+			<td>35</td>
+		</tr>
+		<tr>
+			<td>Sera</td>
+			<td>sera1111@naver.com</td>
+			<td>20</td>
+		</tr>
+		</tbody>
+	</thead>
+</table>
+
+###################################
+# login, button 등, but only the look of the form
+- <form action = "process.php" method = "POST"> # "POST" or "GET" to add data
+- <label>Name</label>
+	<input type = "text" name = "FirstName" value = "Enter first name" placeholder="Enter first name">
+- <br> for separation enter느낌, <hr> for a line
+- <div> for separation
+- type = "email" for email address
+- <div>
+	<label>Gender</label>
+	<select name = "gender">
+		<option value = "male"> Male </option>
+		<option value = "female"> Female </option>
+		<option value = "other"> Other </option>
+		</select>
+ 	</div>
+- <input type = "text" name = "FirstName" value = "Enter first name" placeholder="Enter first name"> # placeholder to display
+- <input type = "submit" name = "submit" value = "Submit">
+- <button>Click Me</button> # 여기에 자바스크립트
+- <!-- image-->
+<a href = "images/ctm/jpg">
+<img src= "ctm.jpg" alt="My Sample Image" width = "200" height = "200">
+</a>
+- <!-- quotations -->
+<blockquote cite = "http://traversymedia.com">
+- <p>The <abbr title = "World Wide Web">WWW</abbr> is awesome </p>
+- <p> <cite> HTML crash course </cite> by Jiyoung Lee </p>
+
+###############################
+# HTML semantic Tags
+- <header>
+- <footer>
+- <aside>
+- <main>
+- <article>
+- <nav>
+- <section>
+- <details>
+
+################################
+# blog.html
+- <small></small>
+- <a href = "post.html">Read More</a>
+- <ul>
+			<li><a href="#"> Category1 </a></li>
+			<li><a href="#"> Category2 </a></li>
+			<li><a href="#"> Category3 </a></li>
+		</ul>
+- <footer id= "main-footer">
+	<p>Copyright  &copy; 2017, My Website </p>
+#css
+<style type = "text/css">
+			#main-header{
+				text-align:center;
+				background-color: black;
+				color: white;
+				padding:10px;
+			}
+
+			#main-footer{
+				text-align: center;
+				font-size:18px;
+			}
+
+		</style>
+# navigation
+</body>
+<a href = "blog.html"> Go to blog </a>
+<hr>
+
+
+
+
+
+
+
+
+
