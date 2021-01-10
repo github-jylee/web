@@ -1,0 +1,28 @@
+# JavaScript
+- high level, interpreted programming language
+- conforms to the ECMAScript specification
+- Multi-paragragm
+- Runs on the client/browser as well as on the server (Node.js)
+
+# Why learn Javascript?
+- It is the programming language of the browser
+- Build very interactive user interfaces with frameworks like React
+- Used in building very fast server side and full stack applications
+- Used in mobile development (React Native, NativeScript, Ionic)
+- Used in desktop application development (Electron JS)
+
+# What you will learn
+- Variables and data types
+- arrays
+- object literals
+- methods for strings, arrays, objects, etc
+- loops = for, while, for...of, forEach, map
+- Conditionals (if, ternary & switch)
+- Functions (normal & arrow)
+- OOP (prototypes & classes)
+- DOM (Selection)
+- DOM manipulation
+- Events
+
+# Udemy 21 Hourse course나 Youtube에 JS OOP, DOM 등등  따로 공부해야 한다~
+
