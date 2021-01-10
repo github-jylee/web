@@ -1,0 +1,385 @@
+# CSS
+- Cascading Stylesheets
+- Not a programming language
+- Sttylesheet/Styling language
+- Used for website layout and design
+- Can be extended with Sass/Less
+
+####################
+# open both folders
+
+####################
+# Inline CSS: Directly in the html element # with html
+# Internal CSS: Using <style> tags in a single document # in the head of html
+# External CSS: Linking an external .css file # separately
+
+###################
+# Inline CSS: <h1 style ="color:red"> Hello </h1>
+# Internal CSS: <style type = "test/css"> h1{color:blue};
+인듯?
+# External CSS: (create another file) - <link rel="stylesheet" type="text/css" href="css/style.css">
+
+#####################
+CSS: selector {property: value;}
+#####################
+body{background-color:#f4f4f4; color:#555555; font-family: Arial, Helvetical, sans-serif; font-size:16px; font-weight:normal;
+/* font:normal Arial, Helvetical, sans-serif로 표현도 가능 */
+line-height:1.6em; # em은 유닛 픽셀 같은거, line-height는 줄 사이 간격
+	margin:0;
+
+#####################
+# Colors in CSS
+- Color Names
+- HTML Colo rnames
+- Hexadecimal
+- RGB
+
+######################
+<div class= "box-1">
+
+# target a class
+.container{
+	width:80%; # make it responsive
+	margin:auto;
+}
+
+.box-1{
+	background-color: #333333;
+	color: #fff;
+}
+
+######################
+# Box Model: margin and padding (space difference edge and space, padding is inside and margin is outside)
+
+p{margin-top:5px; margin-bottom:5px; margin-right:10px; margin-left:10px;}
+p{margin:5px10px5px10px;}
+p{margin:5px10x;}
+
+border-right:5px red solid;
+	border-left:5px red solid;
+	border-top:5px red solid;
+	border-bottom:5px red solid;
+	/*same as above*/
+	border: 5px red solid;
+	border-width:3px;
+	border-bottom-width:10px;
+	border-top-style: dotted;
+
+padding-top:20px; # 간격
+*{ margin:0; padding:0;} # *를 이용해서 reset
+
+padding-top:20px;
+	padding-bottom:20px;
+	padding-right:20px;
+	padding-left:20px;
+
+	/*Same as above*/
+	padding:20px;
+	margin-top:20px;
+	margin:20px 0;
+  
+  
+  .box-1 h1{
+	font-family:Tahoma;
+	font-weight: 800;
+	font-style:italic;
+	text-decoration:underline;
+	text-transform:uppercase;
+	letter-spacing:0.2em;
+	word-spacing:1em;
+}
+
+.box-2{ border:3px dotted #ccc; padding:20px; margin:20px 0;}
+
+
+.categories{border:1px #ccc solid;
+	padding:10px;
+	border-radius:15px;
+
+
+.categories ul{
+	padding:0;
+	list-style:square;
+	list-style:none;
+}
+
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+
+#위에 올라오면 색상 변경
+a:hover{
+	color:red;
+}
+
+# 누르면 flash
+a:active{
+	color:green;
+}
+
+# 눌렀던 것은 노란색으로
+a:visited{
+	color:yellow;
+}
+
+
+#사진 픽셀은 포토샵으로 변경
+.categories li{
+	padding-bottom: 6px;
+	border-bottom:dotted 1px #333;
+	list-style-image: url('../images/check.png');
+}
+
+.categories ul{
+	padding:0;
+	padding-left:20px;
+	list-style:square;
+	list-style:none;
+}
+
+
+#####################
+<div style ="margin-top:500px;"></div> #push up
+
+
+<form class="my-form">
+			<div  class= "form-group">
+				<label> Name: </label>
+				<input type="text" name ="name">
+			</div>
+			<div class="form-group">
+				<label> Email: </label>
+				<input type = "text" name="email">
+			</div>
+			<div class="form-group">
+				<label>Message: </label>
+				<textarea name= "message"></textarea>
+			</div>
+			<input class= "button" type= "submit" value="Submit" name="">	
+		</form>	
+
+
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width:!00%;
+}
+
+
+.my-form input[type="submit"]{
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+
+.button{
+background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+
+# block 3개
+.block{
+	float:left;
+	width:33.3%;
+	border: 1px solid #ccc;
+	padding:10px;
+	box-sizing: border-box; # 3개 사이즈 맞추기
+}
+
+#################
+# id는 #이거로
+#################
+
+#main-block{
+	float:left;
+	width:70%;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float:left;
+	width:30%;
+	background-color:#333;
+	color:3fff;
+	padding:15px;
+	box-sizing: border-box;
+}
+
+####################
+# Positioning in CSS
+- Static # in order, default
+- Relative
+- Absolute # inside the relative element
+- Fixed # how much you scroll
+- Initial # default
+- Inherit
+
+#######################
+
+# position: relative
+.p-box{
+	width:800px;
+	height:500px;
+	border:1px solid #000;
+	margin-top:30px;
+	position:relative;
+}
+
+# position: absolute
+.p-box h1{
+	position:absolute;
+	top:40px;
+}
+
+# 스크롤해도 항상 같은 자리
+.fix-me{
+	position:fixed;
+	top: 400px;
+}
+
+
+# images
+.p-box{
+	width:800px;
+	height:500px;
+	border:1px solid #000;
+	margin-top:30px;
+	position:relative;
+	background-image: url('../image/sky.jpeg');
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-position:100px 200px;
+  
+# suedo classes
+
+.my-list li:first-child{
+	background:red;
+}
+
+.my-list li:last-child{
+	background:blue;
+}
+
+.my-list li:nth-child(5){
+	background:yellow;
+}
+
+.my-list li:nth-child(even){
+	background:grey;
+}
+
+
+######################
+new folder: css, style.css file, images, index.html
+
+#####################
+
+body{
+	background-color: #f4f4f4;
+	color:#555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	background-color:coral;
+	color:#fff;
+}
+
+#navbar{
+	background-color: #333;
+	color:#fff;
+}
+
+#navbar ul{
+	padding:0;
+	list-style:none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+#showcase{
+	background-image: url('../images/showcase.jpeg');
+	background-position: center right;
+	min-height: 300px;
+	margin-bottom:30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color:#fff;
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top:30px;
+
+}
+
+
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background: #333;
+	color:#fff;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align:center;
+	padding:20px;
+	margin-top:40px;
+}
+
+
+@media(max-width: 600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
